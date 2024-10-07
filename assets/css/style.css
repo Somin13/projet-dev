@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&family=Roboto+Slab:wght@100..900&family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dela+Gothic+One&family=M+PLUS+1+Code:wght@100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dela+Gothic+One&family=M+PLUS+1+Code:wght@100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Gothic&family=Sawarabi+Mincho&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dela+Gothic+One&family=Ga+Maamli&family=M+PLUS+1+Code:wght@100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Gothic&family=Sawarabi+Mincho&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+
+body{
+    margin: 0;
+    background: linear-gradient(to right, rgb(2, 2, 2), rgb(109, 70, 151));
+}
+
+.spark-container {
+    position: relative;
+}
+
+.spark {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(188, 175, 194);
+    border-radius: 20%;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+header img{
+    width: 100%;
+    margin-left: 20px 
+    border
+}
+
+.menu-icon {
+    cursor: pointer;
+    display: none;
+}
+
+.bar-nav{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    font-size: 33px;
+    text-align: right;
+    font-family: "Sawarabi Gothic", sans-serif;
+    padding-right: 30px;
+}
+
+.bar-nav a{
+    color: rgb(207, 206, 206);
+    text-decoration: none;
+}
+
+.sub a{
+    background: linear-gradient(to right, rgb(111, 115, 117), rgb(49, 19, 109));
+    padding: 8px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 0.80rem rgb(250, 242, 252));
+}
+
+h1 {
+    color: rgb(197, 196, 196);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 100px;
+    font-family: "Luxurious Roman", serif;
+    text-decoration: underline;
+}
+
+.sous-titre{
+    margin-left: 5%;
+    font-size: 50px;
+    transform: rotate(-10deg);
+    transition: transform 0.3s;
+    background-color: rgb(14, 14, 14);
+    border-radius: 30px;
+    padding: 30px;
+    width: 40%; 
+    font-family: "Sawarabi Gothic", sans-serif;
+    overflow: hidden;
+    display: flex;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+
+.sous-titre:hover {
+    transform: rotate(5deg); 
+    font-family: "Luxurious Roman", serif;
+}
+
+
+.ban {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    opacity: 0.9;
+   overflow: hidden;
+    z-index: -1;  
+}
+
+.image {
+    transition: transform 0.3s;
+}
+
+.ban img {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.ban:hover .image:hover {
+    transform: translateX(10px);
+}
+
+
+
+
+.main{
+    background-color: rgb(0, 0, 0);
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 25px;
+    gap: 100px;
+    margin: 70px;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+.main-image{
+    width: 100%;
+}
+
+.main-image img{
+    width: 90%;
+}
+
+.present{
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.present h2 {
+    font-size: 45px;
+    font-family: "Sawarabi Gothic", sans-serif;
+    text-decoration: underline;
+
+}
+
+.presentation {
+    display: flex;
+    text-align: center;
+    flex-direction: column; 
+    color: rgb(192, 191, 191);
+    margin: 50px;   
+}
+
+.presentation h2 { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(207, 206, 206);
+}
+
+.presentation p {
+    font-size: 40px;
+    font-family: "Sawarabi Gothic", sans-serif;
+}
+
+.souligne {
+    border: 3px solid rgb(96, 43, 136);
+    width: 100%;
+    display: flex;
+    position: relative;
+    right: 20%;
+    text-align: justify;
+}
+
+.bas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bas img{
+    width: 100px;
+}
+
+.art-block{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    text-align: center;
+    color: white;
+    gap: 50px;
+}
+
+.art-container{
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    flex: 2;
+    border-radius: 20px;
+    filter: drop-shadow(0 0 0.80rem rgb(63, 54, 228));
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 35px;
+    opacity: 0.7;
+}
+
+.art-container li{
+    font-size: 20px;
+}
+
+.art-container p{
+    font-size: 30px;
+}
+
+.list {
+    font-size: 40px;
+}
+.list ul {
+    padding: 0;
+}
+
+.dev-image{
+    flex: 2;
+    align-content: center;
+}
+
+.dev-image img{
+    width: 100%;
+}
+
+.langages{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    text-align: center;
+    color: white;
+    gap: 100px;
+}
+
+.langages h2{
+    opacity: 0;
+}
+
+.langage-img{
+    width: 150px;
+    height: 150px;
+}
+
+.langage-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.langage-img h3 a{
+    background: linear-gradient(to right, rgb(63, 158, 202), rgb(97, 58, 142));
+    padding: 10px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 0.80rem rgb(102, 100, 124));
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    color: white;
+    font-size: 25px;
+}
+
+.langage-img img:hover{
+    transform: scale(1.1);
+}
+
+.info-container {
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px;
+    align-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.info{
+    background-color: rgb(51, 24, 97);
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    filter: drop-shadow(0 0 0.80rem rgb(102, 100, 124));
+    border: solid rgb(46, 31, 61);
+    margin-bottom: 10px;
+}
+
+.info h2{
+    color: white;
+    font-size: 30px;
+}
+
+.info article{
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+.info img{
+    width: 50px;
+}
+
+.ordi{
+    width: 50%;
+    transition: transform 0.5s ease;
+    filter: drop-shadow(0 0 0.80rem rgb(131, 130, 143));
+}
+
+.ordi img{
+    width: 50%;
+    border-radius: 20px;
+
+}
+
+.ordi img:hover{
+    transform: scale(1.1);
+}
+
+button{
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+button a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.fst-foot{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    font-size: 15px;
+    padding-top: 30px;
+    border-bottom: solid;color: rgb(107, 105, 104);
+}
+
+.fst-foot img{
+    width: 100%;
+}
+
+.fst-foot a{
+    color: rgb(126, 126, 126); text-decoration: none;
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+    padding: 0%;
+}
+
+li{
+    list-style-type: none;
+}
+
+.snd-para{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.reseaux{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px;
+    margin: 0px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.reseaux img{
+    width: 60px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .main{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .art-block{
+        flex-direction: column;
+        align-items: row;
+    }
+
+    .langages{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+}
+
+

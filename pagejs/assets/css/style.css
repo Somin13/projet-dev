@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=M+PLUS+1+Code:wght@100..700&family=Roboto+Slab:wght@100..900&family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=M+PLUS+1+Code:wght@100..700&family=Roboto+Slab:wght@100..900&family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=M+PLUS+1+Code:wght@100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=M+PLUS+1+Code:wght@100..700&family=Roboto+Slab:wght@100..900&family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=M+PLUS+1+Code:wght@100..700&family=Roboto+Slab:wght@100..900&family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=M+PLUS+1+Code:wght@100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&family=Roboto+Slab:wght@100..900&family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dela+Gothic+One&family=M+PLUS+1+Code:wght@100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dela+Gothic+One&family=M+PLUS+1+Code:wght@100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Gothic&family=Sawarabi+Mincho&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dela+Gothic+One&family=Ga+Maamli&family=M+PLUS+1+Code:wght@100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Gothic&family=Sawarabi+Mincho&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+
+
+body{
+    margin: 0;
+    background: linear-gradient(to right, rgb(2, 2, 2), rgb(109, 70, 151));
+    font-family: "Roboto", sans-serif
+}
+
+.spark-cont {
+    position: relative;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: black;
+    align-items: center;
+}
+
+header img{
+    width: 100%;
+    margin-left: 20px 
+    border
+}
+
+.bar-nav{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    font-size: 30px;
+    text-align: right;
+    font-family: "Roboto Slab", serif;
+    padding-right: 30px;
+}
+
+.bar-nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.sub a{
+    background: linear-gradient(to right, rgb(84, 84, 84), rgb(49, 19, 109));
+    padding: 8px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 0.80rem rgb(250, 242, 252));
+}
+
+.rel {
+    position: relative;
+}
+.banniere {
+   margin: auto;
+   margin-top: 50px;
+   opacity: 0.5;
+   width: 70%;
+   height: 500px;
+    
+}
+
+.banniere img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h1{
+    
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    text-align: center;
+    font-size: 100px;
+    opacity: 0.6;
+}
+
+.presentation {
+    display: flex;
+    text-align: center;
+    flex-direction: column; 
+    color: rgb(192, 191, 191);  
+    margin: 80px; 
+}
+
+
+
+.presentation p {
+    font-size: 40px;
+    font-family: "Sawarabi Gothic", sans-serif;
+}
+
+.souligne {
+    border: 3px solid rgb(96, 43, 136);
+    width: 100%;
+    display: flex;
+    position: relative;
+    right: 20%;
+    text-align: justify;
+}
+
+.explain{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.titres{
+    color: rgb(196, 193, 193);
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 40px;
+    text-decoration: underline;
+    filter: drop-shadow(0 0 0.80rem rgb(100, 80, 108));
+    font-family: "Roboto Slab", serif;
+}
+
+.font{
+    position: relative;
+    display: inline-block;
+    align-content: center;
+    
+}
+
+.font img{
+    width: 350px;
+    height: auto;
+    border-radius: 40px;
+    transition: transform 0.3s ease;
+}
+
+.font:hover{
+    transform: scale(1.1);
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    margin: 0;
+    font-size: 40px;
+    border-radius: 40px;
+    text-align: center;
+    
+}
+
+.font:hover .overlay {
+    opacity: 1;
+}
+
+.blockhtml {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.texte {
+    background-color: rgb(22, 22, 26);
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 38px;
+    border: 6px solid rgb(40, 39, 39);
+    box-shadow: 
+    5px 5px 10px rgba(0, 0, 0, 0.3),
+    -5px -5px 10px rgba(47, 35, 72, 0.7);
+    border-radius: 10px;
+    opacity: 0.6;   
+}
+
+.texte h3 {
+    text-decoration: underline;
+    font-size: 52px;
+}
+
+.portail {
+    display: flex;
+    text-align: center;
+    flex-direction: column; 
+    color: rgb(192, 191, 191); 
+    margin-top: 100px;  
+}
+
+.portail h2 { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(207, 206, 206);
+}
+
+.portail p {
+    font-size: 40px;
+    font-family: "Sawarabi Gothic", sans-serif;
+    margin: 50px;
+}
+.rel {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    gap: 50px;
+    text-align: center;
+}
+
+.castle {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+}
+
+.castle h2 {
+    color: rgb(209, 207, 207);
+    font-family: "Roboto Slab", serif;
+    text-decoration: underline;
+    font-size: 45px;
+}
+
+.castle p {
+    font-size: 33px;
+    font-family: "Sawarabi Gothic", sans-serif;
+    color: white;
+}
+
+.mage {
+    transition: transform 0.3s ease;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    transition: transform 2s ease;
+}
+
+.mage img {
+    width: 60%;
+}
+
+.mage:hover img {
+    transform: scale(1.3);
+}
+
+.image-defil {
+    display: flex;
+    justify-content: space-around;
+    animation: scroll 10s linear infinite;
+    animation-direction: alternate;
+}
+
+.image-defil img{
+    width: 50px;
+    flex-shrink: 0;
+}
+
+.image-defil2 {
+    display: flex;
+    justify-content: space-around;
+    animation: scroll 10s linear infinite;
+    animation-direction: alternate-reverse;
+}
+
+.image-defil2 img{
+    width: 50px;
+    flex-shrink: 0;
+}
+
+.defile{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.fst-foot{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    font-size: 15px;
+    padding-top: 30px;
+    border-bottom: solid;color: rgb(107, 105, 104);
+}
+
+.fst-foot img{
+    width: 300%;
+}
+
+.fst-foot a{
+    color: rgb(126, 126, 126); text-decoration: none;
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+    padding: 0%;
+}
+
+li{
+    list-style-type: none;
+}
+
+.snd-para{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.reseaux{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px;
+    margin: 0px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+
+.reseaux img{
+    width: 60px;
+}
+
+@keyframes scroll{
+    0%{
+      transform: translate(0);
+    }
+    100%{
+      transform: translateX(-50%);
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    
+    .main{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bar-nav{
+        display: none;
+    }
+    
+    .banniere{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blockhtml{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rel {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}  
