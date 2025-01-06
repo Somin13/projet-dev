@@ -21,6 +21,17 @@ body{
     position: relative;
 }
 
+.spark {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(188, 175, 194);
+    border-radius: 20%;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
 header{
     display: flex;
     justify-content: space-between;
